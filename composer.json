@@ -1,5 +1,5 @@
 {
-  "name": "filaforge/filament-huggingface-chat",
+  "name": "filament/huggingface-chat",
   "version": "0.1.0",
   "description": "Comprehensive Filament panel plugin for chatting with AI models from multiple providers including HuggingFace, Ollama, and DeepSeek. Features conversation management, model profiles, and user-specific settings.",
   "type": "library",

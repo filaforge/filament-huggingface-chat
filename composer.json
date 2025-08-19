@@ -1,0 +1,79 @@
+{
+  "name": "filaforge/huggingface-chat",
+  "description": "Comprehensive Filament panel plugin for chatting with AI models from multiple providers including HuggingFace, Ollama, and DeepSeek. Features conversation management, model profiles, and user-specific settings.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "Laravel",
+    "Filament",
+    "HuggingFace",
+    "Ollama",
+    "DeepSeek",
+    "AI",
+    "Chat",
+    "LLM",
+    "Machine Learning",
+    "Filament Plugin"
+  ],
+  "homepage": "https://github.com/filaforge/huggingface-chat",
+  "authors": [
+    {
+      "name": "Filaforge Team",
+      "email": "filaforger@gmail.com",
+      "homepage": "https://github.com/filaforge"
+    }
+  ],
+  "support": {
+    "email": "filaforger@gmail.com",
+    "source": "https://github.com/filaforge/huggingface-chat",
+    "issues": "https://github.com/filaforge/huggingface-chat/issues",
+    "docs": "https://github.com/filaforge/huggingface-chat/blob/main/README.md"
+  },
+  "require": {
+    "php": "^8.1",
+    "filament/filament": "^4.0",
+    "illuminate/support": "^12.0",
+    "spatie/laravel-package-tools": "^1.16",
+    "guzzlehttp/guzzle": "^7.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "orchestra/testbench": "^9.0",
+    "laravel/pint": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Filaforge\\HuggingfaceChat\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Filaforge\\HuggingfaceChat\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+    "format": "vendor/bin/pint"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Filaforge\\HuggingfaceChat\\Providers\\HfChatServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "phpstan/extension-installer": true
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
+
+
+
+
+

@@ -2,6 +2,7 @@
   "name": "filament/huggingface-chat",
   "description": "Comprehensive Filament panel plugin for chatting with AI models from multiple providers including HuggingFace, Ollama, and DeepSeek. Features conversation management, model profiles, and user-specific settings.",
   "type": "library",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "Laravel",
